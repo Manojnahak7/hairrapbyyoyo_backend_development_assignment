@@ -1,0 +1,420 @@
+.filter-sidebar {
+  width: 280px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* TOP */
+.filter-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.reset {
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+}
+
+/* BLOCK */
+.filter-block {
+  margin-bottom: 22px;
+}
+
+.filter-block label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+
+.filter-block input[type="text"],
+.filter-block select {
+  width: 100%;
+  padding: 10px 14px;      
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;  
+}
+
+
+/* CHECKBOX */
+.checkbox {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.checkbox input {
+  margin-right: 6px;
+}
+
+.checkbox.active {
+  color: #e91e63;
+  font-weight: 500;
+}
+
+.view-more {
+  font-size: 13px;
+  color: #e91e63;
+  cursor: pointer;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+/* PRICE */
+.price-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.price-badge {
+  background: #e91e63;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.price-info {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
+
+/* RATING */
+.rating {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #f5a623;
+}
+
+.rating span {
+  color: #777;
+  font-size: 13px;
+}
+
+/* BUTTON */
+.filter-search-btn {
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+
+
+.label-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-icon {
+  font-size: 14px;
+  color: #999;
+}
+
+.location-icon {
+  font-size: 14px;
+  color: #999;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+
+.filter-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.label-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating svg {
+  color: #f5a623;
+  margin-right: 2px;
+}
+
+
+
+
+
+
+.filter-sidebar {
+  width: 280px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HEADER */
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.filter-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.filter-icon {
+  font-size: 16px;
+}
+
+.reset-text {
+  font-size: 13px;
+  color: #999;
+  cursor: pointer;
+}
+
+/* BLOCK */
+.filter-block {
+  margin-bottom: 22px;
+}
+
+.filter-block label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* INPUTS */
+.filter-block input[type="text"],
+.filter-block select {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* LABEL ROW (ICON RIGHT) */
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chevron,
+.location-icon {
+  font-size: 14px;
+  color: #999;
+}
+
+/* CHECKBOX */
+.check-row {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.check-row input {
+  margin-right: 6px;
+}
+
+.check-row.active {
+  color: #e91e63;
+  font-weight: 500;
+}
+
+.view-more {
+  font-size: 13px;
+  color: #e91e63;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+/* PRICE */
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.price-badge {
+  background: #e91e63;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.price-note {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
+
+/* RATINGS */
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.rating-row svg {
+  color: #f5a623;
+}
+
+.rating-row span {
+  font-size: 13px;
+  color: #777;
+}
+
+/* BUTTON */
+.search-btn {
+  width: 100%;
+  padding: 12px;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+/* SELECT WITH ICON */
+.select-with-icon {
+  position: relative;
+}
+
+.select-with-icon select {
+  width: 100%;
+  padding: 9px 36px 9px 12px; 
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.select-icon {
+  position: absolute;
+  top: 50%;
+  right: 12px;              
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #999;
+  pointer-events: none;
+}
+
+
+/* RATINGS HEADER */
+.rating-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.rating-arrow {
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+}
+
+/* RATING ROW */
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.rating-row input {
+  width: 14px;
+  height: 14px;
+}
+
+.stars {
+  color: #f5a623 !important;       
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+
+.count {
+  margin-left: auto;
+  font-size: 13px;
+  color: #777;
+}
+
+/* SEARCH BUTTON */
+.filter-search-btn {
+  width: 100%;
+  padding: 12px;
+  background: #0f172a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.search-icon {
+  font-size: 16px;
+}
+
+
+
+.rating-row svg,
+.rating-row svg path {
+  color: #f5a623 !important;
+  fill: #f5a623 !important;
+  stroke: #f5a623 !important;
+}
+
+
+
+.rating-row svg,
+.rating-row svg path {
+  color: #ffb400 !important;
+  fill: #ffb400 !important;
+  stroke: #ffb400 !important;
+}

@@ -1,0 +1,43 @@
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 40px 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* PREV / NEXT */
+.page-btn {
+  background: none;
+  border: none;
+  color: #444;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.page-btn:hover {
+  color: #e91e63;
+}
+
+/* NUMBERS */
+.page-numbers {
+  display: flex;
+  gap: 8px;
+}
+
+.page-number {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  border: none;
+  background: #f3f3f3;
+  font-size: 14px;
+  cursor: pointer;
+  color: #444;
+}
+
+.page-number.active {
+  background: #e91e63;
+  color: #fff;
+}

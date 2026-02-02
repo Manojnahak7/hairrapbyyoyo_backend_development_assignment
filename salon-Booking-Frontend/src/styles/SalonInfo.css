@@ -1,0 +1,121 @@
+.salon-info-card {
+  display: grid;
+  grid-template-columns: 2fr 2.2fr 1fr;
+  gap: 20px;                
+  padding: 16px 22px;       
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #eee;
+
+  max-width: 1200px;
+  margin: 24px auto;         
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
+/* LEFT */
+.salon-left {
+  display: flex;
+  gap: 16px;
+}
+
+.salon-left img {
+  width: 74px;    
+  height: 74px;
+  border-radius: 6px;
+}
+
+
+.rating {
+ font-size: 13px;
+  color: #f5a623;
+}
+
+.rating span {
+  color: #777;
+  margin-left: 6px;
+}
+
+.salon-details h3 {
+ font-size: 16px;
+  margin: 4px 0;
+  font-weight: 600;
+}
+
+.verify {
+  color: #22c55e;
+  margin-left: 6px;
+}
+
+.heart {
+  margin-left: 6px;
+}
+
+.tagline {
+  font-size: 13px;
+  color: #666;
+}
+
+.meta {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #777;
+  display: flex;
+  gap: 14px;
+}
+
+/* MIDDLE */
+.salon-middle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 18px;   /* was 16px 24px */
+  font-size: 13px;
+}
+
+.salon-middle strong {
+  font-size: 13px;
+}
+
+
+.salon-middle p {
+  color: #666;
+}
+
+.more {
+  color: #e91e63;
+  cursor: pointer;
+}
+
+/* RIGHT */
+.salon-right {
+  text-align: right;
+}
+
+.view-btn {
+  background: #c05a7a;
+  color: #fff;
+ padding: 8px 14px;
+  font-size: 13px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 14px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.social img {
+   width: 26px;
+  height: 26px;
+  padding: 4px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #eee;
+ 
+  
+}
