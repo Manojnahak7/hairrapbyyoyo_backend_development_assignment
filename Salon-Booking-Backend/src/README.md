@@ -245,6 +245,10 @@ http://localhost:5000
 
 ![Admin Dashboard](screenshots/admindashboard.png)
 
+### 🔹 Ai Chatbot
+
+![Ai Chatbot](screenshots/aichatbot.png)
+
 ### 🔹 Add Service (Admin)
 
 ![Add Service](screenshots/addservice.png)

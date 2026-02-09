@@ -1,0 +1,119 @@
+/* ===== CHAT CONTAINER ===== */
+.chatgpt-chat {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ===== ONLY MESSAGES SCROLL ===== */
+.messages {
+  flex: 1;
+  padding: 32px;
+  padding-bottom: 220px; /* space for fixed input */
+  overflow-y: auto;
+}
+
+/* MESSAGE BUBBLES */
+.bubble {
+  max-width: 70%;
+  padding: 12px 18px;
+  border-radius: 18px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.bubble.bot {
+  background: #f2f2f2;
+}
+
+.bubble.user {
+  background: #e91e63;
+  color: #fff;
+  margin-left: auto;
+}
+
+/* ===== CHATGPT INPUT (2 ROW – EXACT LIKE IMAGE) ===== */
+.chatgpt-input-wrapper {
+  position: fixed;
+  bottom: 24px;
+  left: calc(50% + 150px); /* sidebar offset */
+  transform: translateX(-50%);
+
+  width: 60%;
+  max-width: 720px;
+
+  padding: 16px 18px;
+  border: 1px solid #e5e5e5;
+  border-radius: 28px;
+  background: #ffffff;
+  z-index: 50;
+}
+
+/* TOP TEXT INPUT */
+.chatgpt-input-top {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: #333;
+  background: transparent;
+  margin-bottom: 14px;
+}
+
+/* BOTTOM ICON ROW */
+.chatgpt-input-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ICON BUTTON */
+.circle-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.circle-btn:hover {
+  background: #f2f2f2;
+}
+
+.circle-btn svg {
+  font-size: 18px;
+  color: #333;
+}
+
+/* RIGHT ICON GROUP */
+.right-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.options {
+  margin: 12px 0 20px 8px;
+}
+
+.option-btn {
+  display: block;
+  margin-bottom: 8px;
+  padding: 12px 18px;
+  border-radius: 22px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: left;
+}
+
+.option-btn:hover {
+  background: #f2f2f2;
+}
